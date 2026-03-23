@@ -58,6 +58,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
     var counter: Int by remember {
         mutableIntStateOf(value = 0)
     }
+
     var isImageVisible by remember { mutableStateOf(true) }
 
     Box {
